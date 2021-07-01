@@ -1,0 +1,122 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-sans-serif;
+  font-size: 100%;
+}
+
+header {
+  background-color: hsl(0, 80%, 40%);
+  padding: 12px;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  background-color: hsl(0, 0%, 20%);
+  padding: 18px;
+  text-align: right;
+  color: white;
+}
+
+section {
+  padding: 12px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article {
+  float: left;
+  width: 70%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+aside {
+  float: right;
+  width: 20%;
+  padding: 12px;
+}
+
+h1 {
+  color: white;
+  font-size: 1.75em;
+  font-weight: bold;
+  padding: 12px;
+}
+
+header h1 {
+  float: left;
+  width: 70%;
+}
+
+h2 {
+  color: black;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+
+h3 {
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  font-size: 0.75em;
+  padding-bottom: 12px
+}
+
+.article {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#footer {
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 0px;
+}
+
+li {
+  display: inline;
+  padding-left: 12px;
+}
+
+header a {
+  color: hsl(0, 0%, 95%);
+  font-size: 0.875em;
+  text-align: right;
+  float: right;
+  width: 20%;
+  padding-top: 18px;
+}
+
+nav a {
+  color: hsl(0, 0%, 95%);
+  font-size: 0.75em;
+}
+
+img {
+  padding: 12px 0px;
+  width: 100%;
+}
+
+.aside {
+  padding-top: 6px;
+  padding-bottom: 48px;
+}
+
+footer {
+  background-color: hsl(0, 0%, 20%);
+  padding: 24px;
+}
